@@ -10,7 +10,7 @@
 namespace CypherBox {
     
     
-    public partial class Default {
+    public partial class mesasgeEncryption {
         
         /// <summary>
         /// form1 control.
@@ -22,12 +22,30 @@ namespace CypherBox {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// encrytpionLink control.
+        /// messageInput control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button encrytpionLink;
+        protected global::System.Web.UI.WebControls.TextBox messageInput;
+        
+        /// <summary>
+        /// Encrypt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Encrypt;
+        
+        /// <summary>
+        /// encryptedMessage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox encryptedMessage;
     }
 }

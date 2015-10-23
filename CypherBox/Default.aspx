@@ -10,6 +10,10 @@
     <form id="form1" runat="server">
     <div>
     This is my defaul page
+        <br />
+        <br />
+        <br />
+        <asp:Button ID="encrytpionLink" runat="server" OnClick="encrytpionLink_Click" Text="Encryption" Width="135px" />
     </div>
     </form>
 </body>

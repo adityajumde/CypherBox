@@ -67,7 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
-    <Content Include="mesasgeEncryption.aspx" />
+    <Content Include="messageEncryption.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -78,12 +78,12 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="mesasgeEncryption.aspx.cs">
-      <DependentUpon>mesasgeEncryption.aspx</DependentUpon>
+    <Compile Include="messageEncryption.aspx.cs">
+      <DependentUpon>messageEncryption.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="mesasgeEncryption.aspx.designer.cs">
-      <DependentUpon>mesasgeEncryption.aspx</DependentUpon>
+    <Compile Include="messageEncryption.aspx.designer.cs">
+      <DependentUpon>messageEncryption.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -13,5 +13,10 @@ namespace CypherBox
         {
 
         }
+
+        protected void encrytpionLink_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("messageEncryption.aspx");
+        }
     }
 }
