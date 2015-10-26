@@ -21,7 +21,7 @@ namespace CypherBox
         {
             string data = messageInput.Text;
             string key = "hidden";
-
+            string key1 = "";
             clsXor encryptclass = new clsXor();
             encryptedMessage.Text =  encryptclass.encryption(data,key);
         }
