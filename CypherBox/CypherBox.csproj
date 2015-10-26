@@ -66,6 +66,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\cypherBox.mdf" />
+    <Content Include="App_Data\cypherBox_log.ldf">
+      <DependentUpon>cypherBox.mdf</DependentUpon>
+    </Content>
     <Content Include="Default.aspx" />
     <Content Include="messageEncryption.aspx" />
     <Content Include="Web.config" />

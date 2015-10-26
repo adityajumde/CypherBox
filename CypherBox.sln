@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CypherBox.Tests", "CypherBo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "encryptionBusinessLayer", "encryptionBusinessLayer\encryptionBusinessLayer.csproj", "{FB9D78FA-A555-40CD-B0E8-895F1E26586A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cypherBoxDataLayer", "cypherBoxDataLayer\cypherBoxDataLayer.csproj", "{0B625ABC-EAEB-41A3-AC30-CFC937897AF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FB9D78FA-A555-40CD-B0E8-895F1E26586A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB9D78FA-A555-40CD-B0E8-895F1E26586A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB9D78FA-A555-40CD-B0E8-895F1E26586A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B625ABC-EAEB-41A3-AC30-CFC937897AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B625ABC-EAEB-41A3-AC30-CFC937897AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B625ABC-EAEB-41A3-AC30-CFC937897AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B625ABC-EAEB-41A3-AC30-CFC937897AF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
