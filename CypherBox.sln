@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CypherBox", "CypherBox\Cyph
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CypherBox.Tests", "CypherBox.Tests\CypherBox.Tests.csproj", "{094FFEEE-C268-42C6-836A-E0ACB3ED458E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "encryptionBusinessLayer", "encryptionBusinessLayer\encryptionBusinessLayer.csproj", "{FB9D78FA-A555-40CD-B0E8-895F1E26586A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{094FFEEE-C268-42C6-836A-E0ACB3ED458E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{094FFEEE-C268-42C6-836A-E0ACB3ED458E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{094FFEEE-C268-42C6-836A-E0ACB3ED458E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9D78FA-A555-40CD-B0E8-895F1E26586A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9D78FA-A555-40CD-B0E8-895F1E26586A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9D78FA-A555-40CD-B0E8-895F1E26586A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9D78FA-A555-40CD-B0E8-895F1E26586A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
