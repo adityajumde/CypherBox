@@ -42,6 +42,16 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BO\BO.csproj">
+      <Project>{f1478bc8-6530-4176-9cb5-9de189aef1b5}</Project>
+      <Name>BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\encryptionBusinessLayer\encryptionBusinessLayer.csproj">
+      <Project>{fb9d78fa-a555-40cd-b0e8-895f1e26586a}</Project>
+      <Name>encryptionBusinessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

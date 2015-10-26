@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BO;
+using System.Data;
+using System.Data.SqlTypes;
+
 
 namespace encryptionBusinessLayer
 {
@@ -119,5 +123,9 @@ namespace encryptionBusinessLayer
         {
             return Convert.ToInt32(Binary, 2);
         }
+
+     
+
+
     }
 }
