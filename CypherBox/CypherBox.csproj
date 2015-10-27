@@ -70,6 +70,7 @@
     <Content Include="App_Data\cypherBox_log.ldf">
       <DependentUpon>cypherBox.mdf</DependentUpon>
     </Content>
+    <Content Include="css\Background.css" />
     <Content Include="DefaultTemp.aspx" />
     <Content Include="Loginpage.aspx" />
     <Content Include="Default.aspx" />

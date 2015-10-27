@@ -5,11 +5,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="css/Background.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
+        <div id="header">Registration</div>
+        <div id="left1"></div>
     <div>
-    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
         <asp:Label ID="Label1" runat="server" Text="Sign Up"></asp:Label>
         <br />
         <br />
@@ -33,7 +37,7 @@
         <br />
         <br />
         <asp:Label ID="Label4" runat="server" Text="User Name"></asp:Label>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBox_username" runat="server"></asp:TextBox>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBox_username" runat="server"></asp:TextBox>
         &nbsp;
         <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TextBox_username" Display="Dynamic" ErrorMessage="*" ForeColor="#FF3300"></asp:RequiredFieldValidator>
 &nbsp;
@@ -41,7 +45,7 @@
         <br />
         <br />
         <asp:Label ID="Label5" runat="server" Text="Password"></asp:Label>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBox_password" runat="server" TextMode="Password"></asp:TextBox>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBox_password" runat="server" TextMode="Password"></asp:TextBox>
         &nbsp;
         <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBox_password" Display="Dynamic" ErrorMessage="*" ForeColor="#FF3300"></asp:RequiredFieldValidator>
 &nbsp;
@@ -49,7 +53,7 @@
         <br />
         <br />
         <asp:Label ID="Label6" runat="server" Text="Confirm Password"></asp:Label>
-        &nbsp;&nbsp; <asp:TextBox ID="TextBox_cpassword" runat="server" TextMode="Password"></asp:TextBox>
+        &nbsp;<asp:TextBox ID="TextBox_cpassword" runat="server" TextMode="Password"></asp:TextBox>
         &nbsp;
         <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="TextBox_cpassword" Display="Dynamic" ErrorMessage="*" Font-Size="Small" ForeColor="#FF3300"></asp:RequiredFieldValidator>
 &nbsp;<asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TextBox_password" ControlToValidate="TextBox_cpassword" Display="Dynamic" ErrorMessage="Passwords don't match" Font-Size="Small" ForeColor="#FF3300"></asp:CompareValidator>
@@ -57,7 +61,7 @@
         <br />
         <br />
         <asp:Label ID="Label7" runat="server" Text="Email ID"></asp:Label>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBox_emailid" runat="server"></asp:TextBox>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBox_emailid" runat="server"></asp:TextBox>
         &nbsp;
         <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="TextBox_emailid" Display="Dynamic" ErrorMessage="*" ForeColor="#FF3300"></asp:RequiredFieldValidator>
 &nbsp;
