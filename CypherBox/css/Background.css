@@ -9,6 +9,7 @@
     
 }
 
+
 #header{
      background:url(../bk1.jpg) top left repeat;
      width:auto;
@@ -59,10 +60,13 @@
     width:75%;
     height:400px;
 }
-.mybtnstyle:hover
+.mybtnstyle
 {
-background: linear-gradient(top, #fefcea 0%,#f1da36 100%);
+background-color:#57A957;
+    color:white;
 }
+
+
 
 #footer{
     background:url(../bk1.jpg) top left repeat;

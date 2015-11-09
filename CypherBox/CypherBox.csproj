@@ -72,6 +72,7 @@
     </Content>
     <Content Include="css\Background.css" />
     <Content Include="DefaultTemp.aspx" />
+    <Content Include="fileEncryption.aspx" />
     <Content Include="Loginpage.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="messageEncryption.aspx" />
@@ -85,6 +86,13 @@
     </Compile>
     <Compile Include="DefaultTemp.aspx.designer.cs">
       <DependentUpon>DefaultTemp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fileEncryption.aspx.cs">
+      <DependentUpon>fileEncryption.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fileEncryption.aspx.designer.cs">
+      <DependentUpon>fileEncryption.aspx</DependentUpon>
     </Compile>
     <Compile Include="Loginpage.aspx.cs">
       <DependentUpon>Loginpage.aspx</DependentUpon>

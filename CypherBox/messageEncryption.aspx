@@ -6,6 +6,20 @@
 <head runat="server">
     <title></title>
     <link href="css/Background.css" rel="stylesheet" />
+    <style>
+.roundCorner
+{
+    border-radius: 25px;
+    background-color: #4F81BD;
+    color:#FFFFFF;
+    text-align :center;
+    font-family:arial, helvetica, sans-serif;
+    padding: 5px 10px 10px 10px;
+    font-weight:bold;
+    width:100px;
+    height:30px;
+}
+        </style>
 </head>
 <body>
     <div id="header">XOR Encryption</div>
@@ -14,13 +28,13 @@
     <div>
     <p>Message Encryption</p>
     </div>
-        <asp:TextBox ID="messageInput" runat="server" Height="73px" TextMode="MultiLine" Width="345px"></asp:TextBox>
+        <asp:TextBox ID="messageInput" CssClass="roundCorner" runat="server" Height="73px" TextMode="MultiLine" Width="345px"></asp:TextBox>
         <p>
-            <asp:Button ID="Encrypt" runat="server" Height="41px" OnClick="Encrypt_Click" Text="Encrypt" Width="152px" />
+            <asp:Button ID="Encrypt" CssClass="roundCorner" runat="server" Height="41px" OnClick="Encrypt_Click" Text="Encrypt" Width="152px" />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Decrypt" runat="server" style="margin-top: 0px" Text="Decrypt" Width="167px" Height="40px" OnClick="Decrypt_Click" />
+            <asp:Button ID="Decrypt" runat="server" CssClass="roundCorner" style="margin-top: 0px" Text="Decrypt" Width="167px" Height="40px" OnClick="Decrypt_Click" />
         </p>
-        <asp:TextBox ID="encryptedMessage" runat="server" Height="72px" TextMode="MultiLine" Width="343px"></asp:TextBox>
+        <asp:TextBox ID="encryptedMessage" CssClass="roundCorner" runat="server" Height="72px" TextMode="MultiLine" Width="343px"></asp:TextBox>
     </form>
 </body>
 </html>
