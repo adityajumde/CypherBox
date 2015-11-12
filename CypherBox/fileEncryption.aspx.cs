@@ -5,7 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.IO;
-using encryptionBusinessLayer;
+//using encryptionBusinessLayer;
+using BAL;
 
 namespace CypherBox
 {

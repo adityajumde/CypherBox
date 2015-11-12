@@ -4,7 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using encryptionBusinessLayer;
+//using encryptionBusinessLayer;
+using BAL;
 
 namespace CypherBox
 {
@@ -21,7 +22,7 @@ namespace CypherBox
         {
             string data = messageInput.Text;
             string key = "hidden";
-            string key1 = "";
+            
             clsXor encryptclass = new clsXor();
             encryptedMessage.Text =  encryptclass.encryption(data,key);
         }

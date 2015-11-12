@@ -42,11 +42,20 @@
          background:url(../bk4.png) top left repeat;
     clear:none;
     width:37%;
-    height:400px;
-    font-size:28px;
+    height:11100px;
+    font-size:22px;
     text-align:justify;
 }
 
+#left2{
+    float:left;
+         background:url(../bk4.png) top left repeat;
+    clear:none;
+    width:37%;
+    height:800px;
+    font-size:28px;
+    text-align:justify;
+}
 #right{
     float:right;
      clear:none;

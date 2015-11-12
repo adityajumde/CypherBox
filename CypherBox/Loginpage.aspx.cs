@@ -12,7 +12,8 @@ namespace CYPHER_BOX
     public partial class Loginpage : System.Web.UI.Page
     {
         RegistrationBO rbo = new RegistrationBO();
-        RegistrationBAL rbal = new RegistrationBAL();
+       // RegistrationBAL rbal = new RegistrationBAL();
+        LoginBAL lbal = new LoginBAL();
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -22,10 +23,12 @@ namespace CYPHER_BOX
         {
             rbo.username = TextBox_username.Text.Trim();
             rbo.password = TextBox_password.Text.Trim();
-            int value = rbal.login_BAL(rbo);
+            string username = rbo.username;
+            int value = lbal.login_BAL(rbo);
             if (value == 1)
             {
-                Response.Redirect("messageEncryption.aspx");
+                Session["UserName"] = username;
+                Response.Redirect("UserHome.aspx");
             }
 
             else

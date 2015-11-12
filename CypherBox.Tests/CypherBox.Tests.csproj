@@ -52,6 +52,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BAL\BAL.csproj">
+      <Project>{c6388235-7799-47d3-a819-f81ab0703e60}</Project>
+      <Name>BAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CypherBox\CypherBox.csproj">
       <Project>{8878BE7F-5892-4A23-91F5-016A1D998674}</Project>
       <Name>CypherBox</Name>

@@ -10,7 +10,7 @@ using System.Data.SqlTypes;
 
 namespace encryptionBusinessLayer
 {
-    public class clsXor
+    public class clsXor1
     {
         public static string _b64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijk.mnopqrstuvwxyz-123456789+/=";
 

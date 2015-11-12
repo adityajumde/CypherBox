@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using encryptionBusinessLayer;
+//using encryptionBusinessLayer;
+using BAL;
 
 namespace CypherBox.Tests
 {

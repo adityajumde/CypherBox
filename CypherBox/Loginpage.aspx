@@ -7,6 +7,20 @@
 <head id="Head1" runat="server">
   <title></title>
     <link href="css/Background.css" rel="stylesheet" />
+        <style>
+.roundCorner
+{
+    border-radius: 25px;
+    background-color: #4F81BD;
+    color:#FFFFFF;
+    text-align :center;
+    font-family:arial, helvetica, sans-serif;
+    padding: 5px 10px 10px 10px;
+    font-weight:bold;
+    width:100px;
+    height:30px;
+}
+    </style>
   </head>
 <body>
      <div id="header">
@@ -35,13 +49,13 @@
         <br />
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       <div class="mybtnstyle">
+       <div >
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Login" BorderColor="#3333CC" BorderStyle="Solid" Font-Names="Aharoni" Font-Overline="False" Font-Size="Small" Height="29px" Width="77px" />
+        <asp:Button ID="Button1" CssClass="roundCorner" runat="server" OnClick="Button1_Click" Text="Login"  Font-Names="Aharoni" Font-Overline="False" Font-Size="Small" Height="29px" Width="77px" />
        </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Label ID="label_incorrectlogin" runat="server" Font-Size="Small" ForeColor="#FF3300"></asp:Label>
-        <div id="" style="height: 44px">
+        <div id="" style="height: 44px"></div>
     </form>
      
 </body>
