@@ -7,6 +7,18 @@
 <head id="Head1" runat="server">
     <title></title>
     <style type="text/css">
+            
+.roundCorner
+{
+    border-radius: 25px;
+    background-color: #4F81BD;
+    color:#FFFFFF;
+    text-align :center;
+    font-family:arial, helvetica, sans-serif;
+    padding: 5px 10px 10px 10px;
+    font-weight:bold;
+    }
+    
         .style1
         {
             width: 95%;
@@ -40,13 +52,13 @@
             
     <div>
     
- <h1 style="color: #FFFFFF; left: 12px; height: 47px; width: 1019px; text-align: center;"> CYPHER BOX</h1>
+ <h1 align="center" style="color: #FFFFFF; left: 12px; height: 47px; width: 1019px; text-align: center;  "> CYPHER BOX</h1>
 
     </div>
         <br/>
         <br />
         <br /><br /><br /><br /><br /><br />
-        <asp:Menu ID="Menu1" runat="server" 
+        <asp:Menu ID="Menu1" CssClass="roundCorner" runat="server" 
         DynamicHorizontalOffset="5" Font-Names="Verdana" Font-Size="1.3em" BackColor="#996633"
         ForeColor="#ffffff" StaticSubMenuIndent="10px" Orientation="Vertical" OnMenuItemClick="Menu1_MenuItemClick" >
         <DynamicHoverStyle BackColor="#7C6F57"  ForeColor="#669999" Font-Size="1.3em"/>
