@@ -4,12 +4,91 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using cypherBoxDataLayer;
 using BAL;
 using System.Data;
+using BO;
 
 namespace CypherBox.Tests
 {
     [TestClass]
     public class UnitTest1
     {
+        [TestMethod]
+        public void Loginofexistinguser()
+        {
+            int expected = 1;
+
+            string username = "aditya123";
+            string password = "aditya123";
+            RegistrationBO rbo = new RegistrationBO();
+        //    RegistrationBAL rbal = new RegistrationBAL();
+            LoginBAL rbal = new LoginBAL();
+            LoginDAL rDAL = new LoginDAL();
+
+            rbo.username = username;
+            rbo.password = password;
+
+            int Actual = rDAL.validate_user(rbo);
+
+            Assert.AreEqual(expected, Actual);
+        }
+
+        [TestMethod]
+        public void Loginwithwrongusername()
+        {
+            int expected = 0;
+
+            string username = "AXDRED12";
+            string password = "123qwe";
+            RegistrationBO rbo = new RegistrationBO();
+            LoginBAL rbal = new LoginBAL();
+            LoginDAL rDAL = new LoginDAL();
+
+            rbo.username = username;
+            rbo.password = password;
+
+            int Actual = rDAL.validate_user(rbo);
+
+            Assert.AreEqual(expected, Actual);
+        }
+
+        [TestMethod]
+        public void Loginwithwrongpassword()
+        {
+            int expected = 0;
+
+            string username = "AXDRED1";
+            string password = "123qwe3";
+            RegistrationBO rbo = new RegistrationBO();
+            LoginBAL rbal = new LoginBAL();
+            LoginDAL rDAL = new LoginDAL();
+
+            rbo.username = username;
+            rbo.password = password;
+
+            int Actual = rDAL.validate_user(rbo);
+
+            Assert.AreEqual(expected, Actual);
+        }
+
+        [TestMethod]
+        public void Loginwithwrongpasswordandusername()
+        {
+            int expected = 0;
+
+            string username = "AXDRED12";
+            string password = "123qwe3";
+            RegistrationBO rbo = new RegistrationBO();
+            LoginBAL rbal = new LoginBAL();
+            LoginDAL rDAL = new LoginDAL();
+
+            rbo.username = username;
+            rbo.password = password;
+
+            int Actual = rDAL.validate_user(rbo);
+
+            Assert.AreEqual(expected, Actual);
+        }
+
+
         [TestMethod]
         public void TestEncryption()
         {
@@ -268,5 +347,7 @@ namespace CypherBox.Tests
             int count = table.Rows.Count;
             Assert.IsTrue(count == 0);
         }
+
+
     }
 }

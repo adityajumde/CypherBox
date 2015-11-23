@@ -1,6 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="CYPHER_BOX.Login" %>
 
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -52,7 +51,7 @@
             
     <div>
     
- <h1 align="center" style="color: #FFFFFF; left: 12px; height: 47px; width: 1019px; text-align: center;  "> CYPHER BOX</h1>
+<h1 align="center" style="color: #FFFFFF; left: 12px; height: 47px; width: 1019px; text-align: center;  "> CYPHER BOX</h1>
 
     </div>
         <br/>

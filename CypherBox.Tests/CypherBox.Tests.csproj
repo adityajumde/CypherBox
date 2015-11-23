@@ -56,6 +56,10 @@
       <Project>{c6388235-7799-47d3-a819-f81ab0703e60}</Project>
       <Name>BAL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BO\BO.csproj">
+      <Project>{f1478bc8-6530-4176-9cb5-9de189aef1b5}</Project>
+      <Name>BO</Name>
+    </ProjectReference>
     <ProjectReference Include="..\cypherBoxDataLayer\cypherBoxDataLayer.csproj">
       <Project>{0b625abc-eaeb-41a3-ac30-cfc937897af6}</Project>
       <Name>cypherBoxDataLayer</Name>
