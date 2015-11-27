@@ -21,7 +21,7 @@ namespace CypherBox
 
         }
 
-
+    
         protected void readText_Click(object sender, EventArgs e)
         {
             if (FileUp.HasFile)
